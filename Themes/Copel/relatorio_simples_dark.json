@@ -1,0 +1,108 @@
+{
+    "name": "Relatorio Simples Dark",
+    "dataColors": [
+        "#F17925",
+        "#004753",
+        "#CCAA14",
+        "#4B4C4E",
+        "#D82C20",
+        "#A3D0D4",
+        "#536F18",
+        "#46ABB0",
+        "#F49451",
+        "#336C75",
+        "#D6BB43",
+        "#6F7071",
+        "#E0564D",
+        "#B5D9DD",
+        "#758C46",
+        "#6BBCC0",
+        "#B55B1C",
+        "#00353E",
+        "#99800F",
+        "#38393B",
+        "#A22118",
+        "#7A9C9F",
+        "#3E5312",
+        "#358084",
+        "#793D13",
+        "#00242A",
+        "#66550A",
+        "#262627",
+        "#6C1610",
+        "#52686A",
+        "#2A380C",
+        "#235658"
+    ],
+    "background": "#151514",
+    "foreground": "#070f25",
+    "tableAccent": "#0F1934",
+    "textClasses": {
+        "callout": {
+            "fontSize": 45,
+            "fontFace": "DIN",
+            "color": "#252423"
+        },
+        "title": {
+            "fontSize": 12,
+            "fontFace": "DIN",
+            "color": "#252423"
+        },
+        "header": {
+            "fontSize": 12,
+            "fontFace": "Segoe UI Semibold",
+            "color": "#E6E6E6"
+        },
+        "label": {
+            "fontSize": 10,
+            "fontFace": "Segoe UI",
+            "color": "#E6E6E6"
+        }
+    },
+    "visualStyles": {
+        "*": {
+            "*": {
+
+                "title": [{
+                    "fontSize": 12,
+                    "fontFace": "DIN",
+                    "color": "#252423",
+                    "alignment": "center"
+                    }],
+
+                "background": [{
+                    "show": true,
+                    "color": { "solid": { "color": "#605F5F" }},
+                    "transparency": 100
+                    }],
+
+                "border": [{ 
+                    "show": false 
+                    }],
+
+                "visualHeader": [{
+                    "foreground": {"solid": { "color": "#C46C15"}},
+                    "transparency": 100
+                    }],
+
+                "outspacePane": [{
+                    "checkboxAndApplyColor": {
+                        "solid": {"color": "#C46C15"}
+                        }
+                    }]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [{
+                        "color": { "solid": { "color": "#151514"}},
+                        "transparency": 100
+                    }],
+              
+                "outspace": [{
+                      "color": {"solid": { "color": "#4E4D4D" } }
+                    }]
+            }
+        }
+    }
+}
